@@ -1,0 +1,92 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+}
+
+.divPadre{
+    display: flex;
+    width: 100%;
+    
+}
+
+.imagen{
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+
+.activa{
+    font-size:smaller;
+}
+
+.usuarioPrincipal{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.usuario{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 64px;
+
+}
+
+.chats{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    background-color: rgb(242, 237, 230);
+    width: 85%;
+    justify-content: center;
+}
+
+.contactos{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 15%;
+    
+}
+
+.textoChat{
+    display: flex;
+    flex-direction: column;
+}
+
+.textoChat1{
+    padding-left: 1em;
+}
+.botonContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton{
+    text-align: center;
+    color: white;
+    background-color: #A491D2;
+    padding: 1em 2em 1em 2em;
+    margin: 2em;
+    border-style: none;
+}
+
+.pChat{
+    width: 38%;
+    text-align: center;
+    padding: 5px;
+    line-height:2rem;
+    font-size:large;
+}
+
+h1{
+    padding-top: 2rem;
+}
